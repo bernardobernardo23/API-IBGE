@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Busca de cep</title>
+    <link rel="stylesheet" type="" href="css/app.css">
+</head>
+
+<body>
+    <div class="nav">
+        <p>BUSCADOR DE ENDEREÇO VIA CEP</p>
+        <a href="#" id="openDialog" class="botaodialog">Informações</a>
+    </div>
+
+    <dialog id="myDialog">
+        <p>Este sistema utiliza a API do IBGE, a VIACEP</p>
+        <P>A conexão com a API é feita por meio de javascript, utilizando tambem o JQUERY</P>
+        <button  id="closeDialog">Fechar</button>
+    </dialog>
+
+  
+
+    </div>
+    <div>
+        <div>
+            <div class="formulario">
+                <div class="tituloform">
+                    <h1>BUSCA PELO CEP</h1>
+                </div>
+                <div>
+                    <input type="text" id="cep" placeholder="CEP">
+                </div>
+                <div>
+                    <input type="text" id="uf" placeholder="UF" readonly>
+                </div>
+                <div>
+                    <input type="text" name="Cidade" id="cidade" placeholder="Cidade" readonly>
+                </div>
+                <div>
+                    <div>
+                        <input type="text" placeholder="Logragouro" id="logradouro" readonly>
+                        <input type="text" placeholder="Número" id="numero">
+                    </div>
+                </div>
+                <div>
+                    <input type="text" placeholder="Bairro" id="bairro" readonly>
+                </div>
+                <div>
+                    <button type="submit" id="btn">
+                        SALVAR
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <div class="contatos"> <a href="https://github.com/bernardobernardo23" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        </a>
+        <a href="https://wa.me/42998017390" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174879.png" alt="WhatsApp">
+        </a>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/dialog.js"></script>
+</body>
+
+</html>
